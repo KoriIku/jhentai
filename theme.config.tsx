@@ -2,16 +2,16 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span>Jhentai Wiki</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/jiangtian616/JHenTai',
   },
   chat: {
-    link: 'https://discord.com',
+    link: 'https://t.me/+PindoE9yvIpmOWI9',
   },
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
-    text: 'Nextra Docs Template',
+    text: '可能是最好用的跨平台e-hentai客户端',
   },
 }
 
