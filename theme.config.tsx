@@ -2,7 +2,7 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>Jhentai Wiki</span>,
+  logo: (<><img src="https://raw.githubusercontent.com/jiangtian616/JHenTai/master/assets/icon-ios-square.png" alt="Jhentai Logo"></img><span>Jhentai Wiki</span></>),
   project: {
     link: 'https://github.com/jiangtian616/JHenTai',
   },
