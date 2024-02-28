@@ -1,8 +1,9 @@
 {
   "index": "入门",
   "quick-start": "快速开始",
+  "FAQ": "常见问题",
   "about": {
-    "title": "About",
+    "title": "关于",
     "type": "page"
   },
   "contact": {
