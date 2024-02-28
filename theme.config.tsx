@@ -13,6 +13,11 @@ const config: DocsThemeConfig = {
   footer: {
     text: '可能是最好用的跨平台e-hentai客户端',
   },
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – Jhentai Wiki'
+    }
+  }
 }
 
 export default config
