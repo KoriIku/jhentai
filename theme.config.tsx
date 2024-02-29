@@ -17,7 +17,7 @@ const config: DocsThemeConfig = {
   },
   useNextSeoProps() {
     return {
-      titleTemplate: '%s – Jhentai Wiki'
+      titleTemplate: '%s - Jhentai Wiki'
     }
   }
 }
