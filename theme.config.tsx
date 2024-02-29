@@ -1,8 +1,10 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import Image from 'next/image';
+import icon from "./assert/icon.svg"
 
 const config: DocsThemeConfig = {
-  logo: (<><span>Jhentai Wiki</span></>),
+  logo: (<><Image src={icon} alt='' height={16}/><span style={{ marginLeft: '0.4rem' }}>Jhentai Wiki</span></>),
   project: {
     link: 'https://github.com/jiangtian616/JHenTai',
   },
@@ -11,7 +13,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/KoriIku/jhentai/tree/main',
   footer: {
-    text: '可能是最好用的跨平台e-hentai客户端',
+    text: '最好用的跨平台 e-hentai 客户端',
   },
   useNextSeoProps() {
     return {
