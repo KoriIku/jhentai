@@ -1,0 +1,15 @@
+{
+  "index": "入门",
+  "quick-start": "快速开始",
+  "FAQ": "常见问题",
+  "about": {
+    "title": "关于",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://twitter.com/shuding_",
+    "newWindow": true
+  }
+}
